@@ -1,0 +1,26 @@
+/* font
+.colori
+.sezioni uguali 
+.font awesome-all version
+.font awesome cdnjs selezionare il primo link
+.onda= <div class="onda"><svg></svg></div>
+.onda girata transform:rotate
+#23272a- colore testo
+colore background-header=rgba(49,97,224,255)
+elementi:
+&eacute
+
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after{
+    content: '';
+    display: table;
+    clear:both;
+}
+
