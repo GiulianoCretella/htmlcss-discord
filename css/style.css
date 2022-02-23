@@ -33,6 +33,12 @@ body{
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
 }
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
 
 /* header */
 header{
@@ -128,11 +134,10 @@ ul li a{
 
 /* sezioni */
 
-/* sezione1 */
+/* sezioni */
 .section1-3{
     background-color: white;
     width: 100%;
-    min-height: 600px;
     padding: 5%;
 }
 
@@ -149,13 +154,12 @@ ul li a{
 .section2-4{
     background-color: #F5F5F5;
     width: 100%;
-    min-height: 600px;
+    padding: 5%;
 }
 
 /* box-immagini */
 .image-box{
     width: 50%;
-    float: left;
     padding: 30px;
 }
 
@@ -166,15 +170,26 @@ ul li a{
 /* box-testo */
 .text-box{
     width:30%;
-    float: right;
     padding: 30px;
 }
 .text-box .title{
-   font-size: 35px;
+   font-size: 2.3vw;
    font-weight: bolder;
 }
 .text-box p{
-    font-size: 15px;
+    font-size: 0.9vw;
     line-height: 1.5em;
-    margin: 20px;
+    margin:20px 0;
+}
+.last-image{
+    width: 100%;
+}
+
+.last-image img{
+    width: 100%;
+    object-fit: cover;
+}
+#last{
+    width: 100%;
+text-align: center;
 }
