@@ -118,7 +118,7 @@ ul li a{
     color: #fff;
     text-decoration: none;
 }
-#mac{
+.mac{
    font-size: 20px;
    background-color: white;
    color: black;
@@ -172,7 +172,7 @@ ul li a{
     width:30%;
     padding: 30px;
 }
-.text-box .title{
+article .title{
    font-size: 2.3vw;
    font-weight: bolder;
 }
@@ -192,4 +192,12 @@ ul li a{
 #last{
     width: 100%;
 text-align: center;
+}
+.section-foot{
+    text-align: center;
+    margin-top: 10%;
+}
+#last-mac{
+    background-color: #8ea1e1;
+    margin-top: 5%;
 }
