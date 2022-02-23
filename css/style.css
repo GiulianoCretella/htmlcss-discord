@@ -70,7 +70,7 @@ ul li a{
     width: 15%;
     text-align: right;
 }
-.button{
+#accedi .button{
     text-decoration: none;
     padding: 10px 18px;
     background-color: white;
@@ -85,7 +85,7 @@ ul li a{
 
 /* jumbotron */
 .jumbotron{
-    height: 600px;
+    min-height: 600px;
     background-image: url(../img/jumbo.png);
     background-size: cover;
 }
@@ -105,21 +105,45 @@ ul li a{
     line-height: 1.8em;
 }
 
-.j-button{
-    margin-top: 40px;
-    text-align: center;
+.button{
+    display: inline-block;
+    border-radius: 40px;
+    padding: 16px 32px;
+    color: #fff;
+    text-decoration: none;
 }
 #mac{
    font-size: 20px;
-   border-radius: 30px;
-   margin-right: 30px;
-   padding: 20px;
+   background-color: white;
+   color: black;
+   margin-right: 10px;
+   margin-top: 30px;
+
 }
 #discord{
     font-size: 20px;
-    border-radius: 30px;
     background-color: #303336;
     color: white;
-    padding: 20px;
+}
+.section1{
+    background-color: white;
+    width: 100%;
+    min-height: 600px;
+}
+
+.svg-waves{
+    color:  #F5F5F5;
+    font-size: 0;
+}
+.svg-waves-2{
+    color:  #F5F5F5;
+    font-size: 0;
+    transform: rotate(180deg);
+}
+
+.section2{
+    background-color: #F5F5F5;
+    width: 100%;
+    min-height: 600px;
 }
 
