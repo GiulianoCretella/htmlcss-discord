@@ -11,7 +11,9 @@ elementi:
 &eacute
 
 */
-
+.debug{
+    border: 2px solid black;;
+}
 *{
     margin: 0;
     padding: 0;
@@ -23,4 +25,62 @@ elementi:
     display: table;
     clear:both;
 }
+.in-container{
+    width: 70%;
+    margin: 0 auto;
+}
 
+/* header */
+header{
+    line-height: 80px;
+    background-color:#255EE8 ;
+}
+
+/* logo-discord  */
+.logo-discord, nav ul{
+    float:left;
+}
+.logo-discord img{
+    vertical-align: middle;
+}
+.logo-discord{
+    width:15%;
+}
+ /* barra di navigazione */
+nav ul{
+    list-style-type: none;
+    width: 70%;
+    text-align: center;    
+}
+nav ul li{
+    display: inline-block;
+    padding: 0 15px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+/* bottone accesso */
+#accedi{
+    float:right;
+    width: 15%;
+    text-align: right;
+}
+#accedi .button{
+    text-decoration: none;
+    padding: 10px 18px;
+    background-color: white;
+    font-size: 14px;
+    color: #23272a;
+    display: inline;
+    border-radius: 20px;
+}
+
+/* main  */
+
+/* jumbotron */
+.jumbotron{
+    height: 600px;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+}
